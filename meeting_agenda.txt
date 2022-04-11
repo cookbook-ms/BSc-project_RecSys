@@ -1,0 +1,58 @@
+11-04-2022:
+
+1. Background
+- necessary knowledge:
+	- graph, Laplacian
+	- graph data/signals, signal variation (signal processing)
+	- recommender system
+		- users, items, ratings (UI matrix) 
+		- user-similarity, item similarity
+		- Collaborative filtering, SLIM 
+
+2. Project
+- what is this project?
+	- using graph signal processing techniques for recommender systems
+	- model recommendation problem as a graph signal reconstruction/interpolation problem, then use graph signal processing techniques to do recommendation
+	- unsupervised learning or supervised? i.e., do we need training?  
+	- goal: rating prediction, ranking (top n-recommendation)
+- why? 
+	- recommender system 
+	- graph as a model for networked data
+	-  help understand modern recommendation algorithms based on graph neural networks
+- different subquestions
+	- carry the same methodology
+	- performance may vary with different dataset 
+
+3. To do before next meeting
+- paper readings
+	- shuman2013: graph signal processing overview
+		-Section II: graph, edge weights, graph Laplacian, graph signals, graph signal smoothness
+		-Section III: Example 2
+	- sandryhaila 2014: graph signal and understand its variation
+		- Section II-a 
+		- Section III (signal variation)
+		- Section VI-B (tikhonov vs total variation)
+	- aggarwal: recommender systems
+		- chapter 1: 1.3 - 1.3.1 (CF model)
+		- chapter 2: can skip 2.4, 2.5 
+			- user-CF
+			- item-CF
+			- regression model: SLIM
+			- graph models for neighbourhood CF methods 
+	- ning2011L SLIM for top-N recommendations
+- familiar with dataset
+	- ML-100K 
+- similarity choice, evaluation metrics 
+- research question formulation 
+	- given UI-matrix, build UU or II similarity graphs
+	- formulate the rating prediction problem 
+	- solve the problem and perform prediction 
+
+4. logistics 
+- weekly meeting (one student)
+- course tasks (presentations, posters, drafts) 
+	- we can provide help and comments
+	- drafts are important 
+- assessment method: provided in brightspace
+
+
