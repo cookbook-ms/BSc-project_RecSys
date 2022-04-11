@@ -22,8 +22,16 @@
 - different subquestions
 	- carry the same methodology
 	- performance may vary with different dataset 
+	- allocation: 
+		- Karolis
+		- Lars
+		- Melle
+		- Rafael
+		- Serenic
+		
+		
 
-3. To do before next meeting
+3. To do before next meeting (next friday preferred) 
 - paper readings
 	- shuman2013: graph signal processing overview
 		-Section II: graph, edge weights, graph Laplacian, graph signals, graph signal smoothness
