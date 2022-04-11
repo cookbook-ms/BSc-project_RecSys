@@ -1,13 +1,28 @@
-shuman2013: https://arxiv.org/abs/1211.0053
+Graph Filters for Processing and Learning from Network Data (ch 1&2)
 
-sandrydauka2014: https://ieeexplore.ieee.org/document/6808520?arnumber=6808520
+a survey on neighbouring based recommendations (till section 4)
 
-ning2011: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6137254
+shuman2013: graph signal processing overview
+	-Section II: graph, edge weights, graph Laplacian, graph signals, graph signal smoothness
+	-Section III: Example 2
 
-aggarwal_book: https://dl.acm.org/doi/10.1145/3298689.3346985 
+sandryhaila 2014: graph signal and understand its variation
+	- Section II-a 
+	- Section III (signal variation)
+	- Section VI-B (tikhonov vs total variation)
+
+ning2011L SLIM for top-N recommendations
+
+aggarwal: recommender systems
+	- chapter 1: 1.3 - 1.3.1 (CF model)
+	- chapter 2: can skip 2.4, 2.5 
+		- user-CF
+		- item-CF
+		- regression model: SLIM
+		- graph models for neighbourhood CF methods
 
 some interesting works: 
-- 4lines code for recommendation:  https://dl.acm.org/doi/10.1145/3308558.3313710
+- 4lines code for recommendation: https://dl.acm.org/doi/10.1145/3308558.3313710
 - personalized diffusion for top-n rec: https://dl.acm.org/doi/10.1145/3298689.3346985
 - https://dl.acm.org/doi/10.1145/963770.963776
 - https://arxiv.org/abs/1907.06902
