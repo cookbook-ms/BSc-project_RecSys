@@ -1,7 +1,8 @@
 11-04-2022:
 
 1. Background
-- necessary knowledge:
+- involved knowledge:
+	- linear algebra
 	- graph, Laplacian
 	- graph data/signals, signal variation (signal processing)
 	- recommender system
@@ -28,8 +29,7 @@
 		- Melle
 		- Rafael
 		- Serenic
-		
-		
+				
 
 3. To do before next meeting (next friday preferred) 
 - paper readings
