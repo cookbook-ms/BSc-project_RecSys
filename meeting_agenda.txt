@@ -1,8 +1,9 @@
 11-04-2022:
 
 1. Background
-- necessary knowledge:
-	- graph, Laplacian
+- involved knowledge:
+	- linear algebra
+	- graph, Laplacian, kNN graph
 	- graph data/signals, signal variation (signal processing)
 	- recommender system
 		- users, items, ratings (UI matrix) 
@@ -22,8 +23,15 @@
 - different subquestions
 	- carry the same methodology
 	- performance may vary with different dataset 
+	- allocation: 
+		- Karolis
+		- Lars
+		- Melle
+		- Rafael
+		- Serenic
+				
 
-3. To do before next meeting
+3. To do before next meeting (next friday preferred) 
 - paper readings
 	- shuman2013: graph signal processing overview
 		-Section II: graph, edge weights, graph Laplacian, graph signals, graph signal smoothness
@@ -49,6 +57,7 @@
 	- solve the problem and perform prediction 
 
 4. logistics 
+- working with each other
 - weekly meeting (one student)
 - course tasks (presentations, posters, drafts) 
 	- we can provide help and comments
