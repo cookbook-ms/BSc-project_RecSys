@@ -3,7 +3,7 @@
 1. Background
 - involved knowledge:
 	- linear algebra
-	- graph, Laplacian
+	- graph, Laplacian, kNN graph
 	- graph data/signals, signal variation (signal processing)
 	- recommender system
 		- users, items, ratings (UI matrix) 
