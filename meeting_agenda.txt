@@ -49,6 +49,7 @@
 	- solve the problem and perform prediction 
 
 4. logistics 
+- working with each other
 - weekly meeting (one student)
 - course tasks (presentations, posters, drafts) 
 	- we can provide help and comments
