@@ -1,0 +1,58 @@
+22-04-2022:
+
+1. Literature reading feedback
+- Questions? 
+    - isufi's: 
+        - graph representations, adjacency matrix, incidence matrix, laplacians and their variants, graph shift operator
+        - graph spectra
+        - graph signals, multivariate graph signal 
+        - graph diffusions based on adjacency matrix and laplacian, local operation 
+        - signal variation (based on laplacian and based on adjacency matrix as in moura's paper)
+            - graph laplacian quadratic form, tikhonov regularizer
+            - signal total vairation, based on adjacency matrix, observed better performance 
+        - regularization 
+            - tikhonov regularizer eq.2.17
+            - total variation regularization eq.2.37
+
+    - survey paper on recsys: 
+        - recsys language, user, item, ratings ... 
+        - rating prediction, evaluation: MAE, RMSE
+        - neighbouring-based preditions 
+            - eq.6/7
+        - item based 
+            - eq. 11/12
+        - rating normalization 
+            - mean centering 
+            - z-score normalization 
+        - similarity weight computation 
+            - person correlation ...
+        - section 5 also introduces SLIM method ...
+
+    - ning2011 SLIM:
+        - learning based method, basically learn the contribution weights from neighbours
+        - understand the optimization problem 3 
+
+
+
+2. build a graph from rating matrix data 
+- user-user similarity graph or item-item one
+- weights? similarity .. 
+- what will be the graph signals on this graph? 
+- solutions ... for later 
+- formulate the problem 
+- baseline methods? 
+- consider a real data and discuss the procedures 
+
+3. subproblem allocation 
+- Karolis
+- Lars
+- Melle 
+- Rafael
+- Serenic 
+
+4. project plan
+- build graph 
+- test baseline methods
+- use the training data to, foor instance, build the graph or learn the weights in SLIM, test
+- performance reports
+- investigation 
