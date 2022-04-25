@@ -1,0 +1,23 @@
+29-04-2022: 
+
+1. ways to investigate different regularizers 
+    - tikhonov regularizer
+    - sobolov regularizer
+    - total variation 
+    - graph trend filtering 
+
+2. ways to solve the optimization problem 
+    - solving strategy in the matrix form or in the form of vector by vector: 
+        -A: in general, we suggest, for instance, considering a UU graph, to solve the optimization problem item by item, i.e., predict the ratings of all users (all nodes of the graph) given to one specific item,, then do this for each item  
+        -B: solve in the matrix form
+
+    - solvers: 
+        -a: closed form solution 
+        -b: iterative solvers, admm, cg, sgd
+        -c: convex solvers  
+
+
+    - tikhonov regularizer: A or B, a 
+    - SLIM: A is suggested in the paper, b
+    - total variation: A is suggested, b
+    - gran trend filtering: A is suggesed, b   
