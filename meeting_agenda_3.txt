@@ -24,7 +24,7 @@
 
 3. Some questions
     - what if the preicted results went out of the feasible range, e.g., predicted as 6 while the reasonable range is [1,5]?
-        - constrained optimization? 
+        - constrained optimization? let's not go there yet
     - 
     
 4. Understand how to solve the optimizations in this project
