@@ -21,3 +21,8 @@
     - SLIM: A is suggested in the paper, b
     - total variation: A is suggested, b
     - gran trend filtering: A is suggesed, b   
+
+3. Some questions
+    - what if the preicted results went out of the feasible range, e.g., predicted as 6 while the reasonable range is [1,5]?
+        - constrained optimization? 
+    - 
