@@ -26,3 +26,30 @@
     - what if the preicted results went out of the feasible range, e.g., predicted as 6 while the reasonable range is [1,5]?
         - constrained optimization? 
     - 
+    
+4. Understand how to solve the optimizations in this project
+    - what terms we have here? 
+        - matrix, vector, mat-vec multiplication
+        - vector norm, 1-norm, 2-norm 
+    - convex optimization 
+        - real function (output: real value, input: real value)
+            - a quadratic function (ax^2 + bx + c, a >0), how to find at which x, the function reachs the minimum or maximum? 
+                - set the gradient (2ax+b=0) to zero, then look for the solution
+                - this is because the function has parabolic shape, i.e., the function is either convex or concave
+        - vector function (output: real value, input: vector)
+            - if the function is convex, we can
+                - find the gradient, if it exists 
+                    - set the gradient to be zero, find the solution if it can be solved
+                    - otherwise, iterative methods:
+                        - gradient descent
+                        - other more advanced versions
+                - convex toolbox
+                    - input the objective function, variable, constraints
+                - convex solvers
+                    - general algorithms: stochastic gradient descent, adam, coordinate descent(understand from a function with 2 real variables)
+                    - algorithms for specific programs: ISTA, FISTA for 1-norm problems, i.e., lasso problems
+            - if it's not convex, ... future study
+                - e.g., most neural networks have nonconvex loss function, but convex iterative algorithms are used anyway
+        - matrix function (output: real value, input: matrix)
+            - can work direcly on matrix
+            - transform into vector function, like SLIM paper, like what we are suggested to do here 
